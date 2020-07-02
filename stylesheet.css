@@ -1,0 +1,82 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+  color: #0c2e60;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+
+.main-top{
+  background-color: white;
+  opacity: 0.8;
+  padding: 45px 0 100px 0;
+  color: black;
+  height: 650px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(img/banner_bg.png);
+  background-repeat: no-repeat;
+  background-size: 63%;
+  background-position: top right;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.align-center{
+  align-items: center !important;
+  background-image: url(img/teamwork.png);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: top right;
+  height: 600px;
+}
+
+.align-text a{
+  text-decoration: none;
+}
+
+.align-text h5{
+  padding-bottom: 15px;
+}
+
+.align-text h1{
+  font-size:45px;
+  letter-spacing:3px;
+}
+
+.align-text p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.6;
+}
+
+.btn-main{
+  margin-bottom:20px;
+  margin-top: 10px;
+}
+
+.btn_about{
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius:50px;
+  background-color:#239b76;
+}
